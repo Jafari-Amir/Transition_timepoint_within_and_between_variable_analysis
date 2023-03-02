@@ -8,8 +8,8 @@ selected_locations = {"corners": ['c1', 'c2', 'c3', 'c4'], "border": ['b1', 'b2'
 s1 = pd.DataFrame()
 s2 = pd.DataFrame()
 s3 = pd.DataFrame()
-txt = 'Male_Sac_CNTL'
-path = f'/Users/amir1/Downloads/{txt}/'
+txt = 'zzzz'
+path = f'/Users/xxxxxxx/Downloads/{txt}/'
 all_files = glob.glob(os.path.join(path, "*.csv"))
 results = pd.DataFrame(columns=['location', 'slope', 'intercept', 'file_name', 'data_range'])
 selected_locations = {"corners": ['c1', 'c2', 'c3', 'c4'], "borders": ['b1', 'b2', 'b3', 'b4'], "center": ['center']}
